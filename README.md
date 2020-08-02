@@ -1,4 +1,4 @@
-### Project Summary
+## Project Summary
 
 In this project, you will be guided on how to create a very basic html and css file. There is a guided video that you can follow along with to complete this project.
 
@@ -16,8 +16,14 @@ In this project, you will be guided on how to create a very basic html and css f
 
 After each step, use git to add and commit the changes you have made to the project!
 
-1. Fork this repository to create your own copy.
-2. In ther terminal on your computer, clone the repositry in your projects folder and cd into the created directory.
+### Step 1.
+
+Fork this repository to create your own copy.
+
+### Step 2.
+
+In the terminal on your computer, clone the repositry in your projects folder and cd into the created directory.
+
 <details>
 
 ```
@@ -300,7 +306,6 @@ Nice work! You have created your first website for this course! You learned a lo
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aloha!</title>
-
     <link
       rel="icon"
       type="image/jpeg"
@@ -341,24 +346,8 @@ Nice work! You have created your first website for this course! You learned a lo
     </p>
   </body>
 </html>
-    
-</details>
-
-<details>
-<summary>index.css</summary>
 ```
-* {
-  font-family: "Red Rose", cursive;
-}
-
-h1 {
-color: green;
-}
-
-p {
-color: #485787;
-}
-
+    
 </details>
 
 </details>
