@@ -34,7 +34,10 @@ cd html-css-intro-guided-project;
 
 </details>
 
-3. create and html file `index.html`, and css file `index.css`
+### Step 3.
+
+create and html file `index.html`, and css file `index.css`
+
 <details>
 
 ```
@@ -43,7 +46,10 @@ touch index.html index.css
 
 </details>
 
-4. create the basic html structure in your html file with html, head and body tags.
+### Step 4.
+
+create the basic html structure in your html file with html, head and body tags.
+
 <details>
 
 ```html
@@ -59,7 +65,10 @@ touch index.html index.css
 
 </details>
 
-5. Using title tags, add a title of `Aloha!` within the head tags in your html.
+### Step 5.
+
+Using title tags, add a title of `Aloha!` within the head tags in your html.
+
 <details>
 
 ```html
@@ -76,7 +85,9 @@ touch index.html index.css
 
 </details>
 
-6. Add a an icon image for your site that will show in the browser tab
+### Step 6.
+
+Add a an icon image for your site that will show in the browser tab
 
 <details>
 
@@ -100,7 +111,10 @@ touch index.html index.css
 
 </details>
 
-7.  Link your css file to your html file using the `link` element
+### Step 7.
+
+Link your css file to your html file using the `link` element
+
 <details>
 
 ```html
@@ -124,7 +138,9 @@ touch index.html index.css
 
 </details>
 
-8. Within the body tags, create a heading using the `h1` element. The heading can say whatever you want! Have fun with this.
+### Step 8.
+
+Within the body tags, create a heading using the `h1` element. The heading can say whatever you want! Have fun with this.
 
 <details>
 
@@ -151,7 +167,10 @@ touch index.html index.css
 
 </details>
 
-9.  Add some paragraph texts with the `p` element. You can write whatever you want. Play around with this and create as many paragraphs as you want.
+### Step 9.
+
+Add some paragraph texts with the `p` element. You can write whatever you want. Play around with this and create as many paragraphs as you want.
+
 <details>
 
 ```html
@@ -201,7 +220,10 @@ touch index.html index.css
 
 </details>
 
-10. bring in any font you want from google fonts to add style to your text.
+### Step 10.
+
+bring in any font you want from google fonts to add style to your text.
+
 <details>
 
 ```html
@@ -255,7 +277,10 @@ touch index.html index.css
 
 </details>
 
-11. In your css file, make the new font from google fonts be the defaut font for all text for your website.
+### Step 11.
+
+In your css file, make the new font from google fonts be the defaut font for all text for your website.
+
 <details>
 
 ```css
@@ -266,7 +291,10 @@ touch index.html index.css
 
 </details>
 
-12. In your css file, select the `h1` heading elements, and make their color `green`
+### Step 12.
+
+In your css file, select the `h1` heading elements, and make their color `green`
+
 <details>
 
 ```css
@@ -277,7 +305,9 @@ h1 {
 
 </details>
 
-13. In your css file, select the `p` paragraph elements, and make their color `#485787`;
+### Step 13.
+
+In your css file, select the `p` paragraph elements, and make their color `#485787`;
 
 <details>
 
