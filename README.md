@@ -327,7 +327,7 @@ Nice work! You have created your first website for this course! You learned a lo
 
 <details>
 <summary>index.html</summary>
-```html
+</details>
 
 <details>
 <summary>index.css</summary>
@@ -342,4 +342,6 @@ Nice work! You have created your first website for this course! You learned a lo
 
     p {
     color: #485787;
-    }
+    }```
+
+</details>
