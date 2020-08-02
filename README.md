@@ -326,58 +326,20 @@ The final step, and one of the most important! Use git to add and commit any new
 Nice work! You have created your first website for this course! You learned a lot in this unit, and your hard work has paid off. Make sure you submit this project in the `Guided project(s)` section for this unit. Just copy the url for your repository, paste it and click send!
 
 <details>
-<summary>solution</summary>
-<details>
 <summary>index.html</summary>
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aloha!</title>
-    <link
-      rel="icon"
-      type="image/jpeg"
-      href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTIqcwYFMtqeikFk8F1d9J4oO4y1YDGY_YsMA&usqp=CAU"
-    />
-    <link href="index.css" rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
 
-  </head>
-  <body>
-    <h1>My First Website!</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-      exercitationem suscipit sed perferendis? Animi iste iure quasi dicta,
-      eaque quod velit veritatis, dignissimos neque tenetur fugit minima,
-      dolorem tempore quis.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-      exercitationem suscipit sed perferendis? Animi iste iure quasi dicta,
-      eaque quod velit veritatis, dignissimos neque tenetur fugit minima,
-      dolorem tempore quis. Lorem ipsum dolor sit amet consectetur adipisicing
-      elit. Error enim, perferendis non saepe quas fuga. Esse modi dolorem
-      voluptatem libero? Ducimus illo esse voluptate labore libero voluptates
-      amet nulla vel. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-      Ab dignissimos fugiat quisquam reprehenderit laborum cum veniam, accusamus
-      ex aliquid saepe voluptates at error nostrum blanditiis vel minima quos
-      porro. Qui.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-      exercitationem suscipit sed perferendis? Animi iste iure quasi dicta,
-      eaque quod velit veritatis, dignissimos neque tenetur fugit minima,
-      dolorem tempore quis.
-    </p>
-  </body>
-</html>
-```
-    
-</details>
+<details>
+<summary>index.css</summary>
+```css
+    * {
+    font-family: "Red Rose", cursive;
+    }
 
-</details>
+    h1 {
+    color: green;
+    }
+
+    p {
+    color: #485787;
+    }
