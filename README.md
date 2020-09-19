@@ -401,3 +401,13 @@ p {
 ```
 
 </details>
+
+## Copyright
+
+© Push LLC, 2020. Unauthorized use and/or duplication of this material without express and written permission from Push, LLC is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to Push with appropriate and specific direction to the original content.
+
+<p align="center"><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+
+
+</p>
