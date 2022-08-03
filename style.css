@@ -1,0 +1,50 @@
+/* 
+website colors
+offwhite #FAFAFA
+teal #027B7E
+gold 	#F0A433
+*/
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* ELEMENT Type selectors */
+
+a {
+  color: #027b7e;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* ID selectors */
+
+#main-title {
+  font-weight: normal;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* Class selectors */
+
+.date {
+  font-size: 0.75rem;
+  text-decoration: underline;
+}
+
+.name {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.section-title {
+  color: #027b7e;
+}
