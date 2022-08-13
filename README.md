@@ -1,6 +1,6 @@
 ### Important note
 
-When going through this project, I notices some issues with the `prettier` code formatter in VSCode when formatting html. Especially with formatting `<cite>`, `<a>`, and `<blockquote>` elements. In fact, the `<blockquote>` element completely prevented the formatter from formatting. Because of this, I switched over to using VSCode's html formatter. To do this, I opened the `command palette` (CMD + Shift + P on mac), and searched for `Open Settings (JSON)` and clicked on the option.
+When going through this project, I noticed some issues with the `prettier` code formatter in VSCode when formatting html. Especially with formatting `<cite>`, `<a>`, and `<blockquote>` elements. In fact, the `<blockquote>` element completely prevented the formatter from formatting. Because of this, I switched over to using VSCode's html formatter. To do this, I opened the `command palette` (CMD + Shift + P on mac), and searched for `Open Settings (JSON)` and clicked on the option.
 
 This is what my my settings.json file contains:
 
@@ -20,9 +20,9 @@ This is what my my settings.json file contains:
 
 ## Project Summary
 
-In our guided projects, we will be creating a Gallo Pinto recipe website. With each unit, as you learn more HTML & CSS, we will add to our website to create a modern recipe site that is responsive on both mobile and web. Here is a link the the final site, so you can see what it is that we are trying to build. Since this unit has not covered everything you need to know in order to build the final version of this website, here is a link to what we will be building for this project.
+In our guided projects throughout this course, we will be creating a Gallo Pinto recipe website. With each unit, as you learn more HTML & CSS, we will add to our website to create a modern recipe site that is responsive on both mobile and web. You can view the final project at https://gallo-pinto.pushcode.dev/, so you can see what it is that we are trying to build. Since this unit has not covered everything you need to know in order to build the final version of this website, you can go to https://gallo-pinto.pushcode.dev/intro to what we will be building for this guided project.
 
-There will be step by step instructions as well as code along videos and solutions to help you along the way. Try and do as much as you can on your own, and use the videos and solutions for help when you get stuck.
+Each step will have a link so you can see what you are building for that step, and a guided video so you can follow along with me. There are also solutions for each step in case you get stuck or have a typo you can't find and you are starting to get frustrated. Try and do as much as you can on your own, and use the videos and solutions for help when you get stuck.
 
 ## Goals
 
