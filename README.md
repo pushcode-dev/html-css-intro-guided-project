@@ -532,7 +532,7 @@ Check out the link for this step to see what this should look like and how it sh
       </li>
     </ol>
     <h2 class="section-title">More Recipes</h2>
-    <h2 id="reviews">Reviews</h2>
+    <h2 id="reviews" class="section-title">Reviews</h2>
     <h3>Leave a review</h3>
     <p>John Doe October 28, 2022</p>
     <p>
@@ -637,7 +637,7 @@ Now, let's create a rule for the class `date` and set the font size to `0.75rem`
   ...
   <body>
     ...
-    <h2 id="reviews">Reviews</h2>
+    <h2 id="reviews" class="section-title">Reviews</h2>
     <h3>Leave a review</h3>
     <p>
       <span class="name">John Doe</span>
@@ -897,7 +897,7 @@ Then, copy the css rule, and use the `universal selector` to set the `font-famil
       </li>
     </ol>
     <h2 class="section-title">More Recipes</h2>
-    <h2 id="reviews">Reviews</h2>
+    <h2 id="reviews" class="section-title">Reviews</h2>
     <h3>Leave a review</h3>
     <p><span class="name">John Doe</span> <span class="date">October 28, 2022</span></p>
     <p>
