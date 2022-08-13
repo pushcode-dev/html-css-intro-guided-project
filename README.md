@@ -20,19 +20,23 @@ This is what my my settings.json file contains:
 
 ## Project Summary
 
-In our guided projects throughout this course, we will be creating a Gallo Pinto recipe website. With each unit, as you learn more HTML & CSS, we will add to our website to create a modern recipe site that is responsive on both mobile and web. You can view the final project at https://gallo-pinto.pushcode.dev/, so you can see what it is that we are trying to build. Since this unit has not covered everything you need to know in order to build the final version of this website, you can go to https://gallo-pinto.pushcode.dev/intro to what we will be building for this guided project.
+In our guided projects throughout this course, we will be creating a Gallo Pinto recipe website. With each unit, as you learn more HTML & CSS, we will add to our website to create a modern recipe site that is responsive on both web and mobile. You can view the final project at https://gallo-pinto.pushcode.dev/. Since this unit has not covered everything you need to know in order to build the final version of this website, you can go to https://gallo-pinto.pushcode.dev/intro to see what we will be building for this guided project.
 
-Each step will have a link so you can see what you are building for that step, and a guided video so you can follow along with me. There are also solutions for each step in case you get stuck or have a typo you can't find and you are starting to get frustrated. Try and do as much as you can on your own, and use the videos and solutions for help when you get stuck.
+This guided project is broken down into steps. Each step will have a link so you can see what you are building for that step, and a guided video so you can follow along with me. There are also solutions for each step in case you get stuck or have a typo you can't find and you are starting to get frustrated. Try and do as much as you can on your own, and use the videos and solutions for help when you get stuck.
+
+Our goals for this guided project are:
 
 ## Goals
 
 - create an html file
 - create a css file
-- create a title for your html site
-- add a favicon icon to your site
 - link your css file to your html file
+- create a title for the html document
+- add a favicon
 - Use heading and paragraph elements to add text to your site
 - format the text using semantic elements and css style properties
+- use the html <a> element to link to internal and external resources
+- use the html <span> element to target portions of the text we want to style without breaking onto a new line.
 
 ## Steps
 
