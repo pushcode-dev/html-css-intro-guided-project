@@ -1,0 +1,355 @@
+/* 
+Costa Rica flag colors:
+blue #002B7F 
+white #ffffff
+red #CE1126
+
+website colors
+offwhite #FAFAFA
+teal #027B7E
+gold 	#F0A433
+*/
+
+html,
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body,
+html,
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* ELEMENT Type selectors */
+
+a {
+  color: #027b7e;
+  text-decoration: none;
+}
+
+aside {
+  background-color: #027b7e;
+  border-top: 1px solid;
+  float: right;
+  padding: 80px 32px 240px;
+  width: 400px;
+}
+
+button {
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  padding: 0 16px;
+}
+
+label {
+  display: block;
+}
+
+main {
+  background-color: #fafafa;
+  border-top: 1px solid;
+  padding: 48px;
+  width: calc(100% - 400px);
+}
+
+h1,
+h2 {
+  font-weight: 600;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+input {
+  height: 40px;
+  margin-bottom: 16px;
+}
+
+input,
+textarea {
+  border: 1px solid #fafafa;
+  border-radius: 6px;
+  padding: 8px;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 4px;
+}
+
+li {
+  padding: 8px;
+}
+
+section {
+  margin-bottom: 32px;
+}
+
+/* Attribute selectors */
+
+[type="checkbox"] {
+  height: initial;
+  margin: 0;
+  width: initial;
+}
+
+/* ID selector */
+
+#main-title {
+  font-weight: normal;
+  margin-bottom: 48px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#subscribe {
+  margin-left: 4px;
+}
+
+/* Class selectors */
+
+aside > .sleeping-sloth {
+  height: 240px;
+}
+
+.banner {
+  background-image: url("https://pushcodedev.s3.us-west-1.amazonaws.com/public_assets/costa-rican-traditional-meal-white-plate-wooden-table.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.cook-time-value {
+  float: right;
+  margin-top: 6px;
+}
+
+.cook-time-wrapper {
+  padding: 48px;
+}
+
+.cook-time-wrapper > .row {
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.cook-time-wrapper i {
+  color: #f0a433;
+  font-size: 24px;
+  width: 40px;
+}
+
+.content-wrapper {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.date {
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.float-right {
+  float: right;
+}
+
+.ingredients > ul {
+  float: left;
+}
+
+.ingredients-section {
+  background-color: #ffffff;
+  border-radius: 6px;
+  height: 300px;
+  padding-right: 48px;
+  padding: 24px;
+}
+
+.inline {
+  display: inline;
+}
+
+.instructions-section {
+  clear: left;
+}
+
+.main-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid black;
+  height: 80px;
+  width: 100%;
+}
+
+.more-recipes {
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1), 2px 0px 8px rgba(0, 0, 0, 0.1);
+  padding: 18px;
+  border-radius: 6px;
+  background-color: white;
+  height: 516px;
+}
+
+.more-recipes .recipe-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.more-recipes .recipe {
+  background-image: url("https://pushcodedev.s3.us-west-1.amazonaws.com/public_assets/costa-rican-traditional-meal-white-plate-wooden-table.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 6px;
+  /* remove this in positioning guided project */
+  float: left;
+  font-size: 18px;
+  font-weight: 500;
+  height: 200px;
+  margin: 8px;
+  overflow: hidden;
+  width: calc((100% / 3) - 16px);
+}
+
+.more-recipes .recipe:hover {
+  cursor: pointer;
+}
+
+.more-recipes .recipe:hover > .recipe-overlay {
+  width: 100%;
+  height: 100%;
+}
+
+.more-recipes .recipe {
+  float: left;
+}
+
+.name {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.nutritional-info > .row {
+  padding: 8px 16px;
+}
+
+.nutritional-info > .row:nth-child(odd) {
+  background-color: #fafafa;
+}
+
+.nutritional-info-wrapper {
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1), 2px 0px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.nutritional-info-wrapper > header {
+  background: #005b5d;
+  color: #ffffff;
+  padding: 16px;
+}
+
+.rating-wrapper {
+  text-align: center;
+}
+
+.rating-wrapper > .stars {
+  margin-bottom: 32px;
+}
+
+.recipe-title {
+  background-color: #ffffff;
+  border-bottom-right-radius: 12px;
+  border-top-right-radius: 12px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1), 2px 0px 8px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  width: calc(100% - 340px);
+}
+
+.required-field::after {
+  content: "*";
+  margin-left: 4px;
+}
+
+.review-form {
+  margin-bottom: 48px;
+}
+
+.review-form > input,
+.review-form > textarea {
+  margin-bottom: 16px;
+}
+
+.review-form > button {
+  background-color: #027b7e;
+  color: #ffffff;
+  margin-top: 16px;
+  padding: 0 16px;
+  width: max-content;
+}
+
+.reviews-button {
+  background-color: #f0a433;
+  color: black;
+}
+
+.reviews-section {
+  margin: 48px 0;
+}
+
+.reviews-section > .section-title {
+  margin-bottom: 16px;
+}
+
+.review-wrapper > .name {
+  margin-bottom: 0;
+}
+
+.review-wrapper > .date {
+  margin: 0;
+}
+
+.scroll-box {
+  height: 400px;
+  overflow: auto;
+}
+
+.section-title {
+  margin-bottom: 16px;
+}
+
+.section-title > i {
+  color: #027b7e;
+}
+
+.stars {
+  color: #f0a433;
+}
+
+.stars-4::after {
+  content: "\2605 \2605 \2605 \2605 \2606";
+  margin-left: 16px;
+}
+
+.stars-5::after {
+  content: "\2605 \2605 \2605 \2605 \2605";
+  margin-left: 16px;
+}
+
+.value {
+  float: right;
+}
+
+.wrapper {
+  overflow: auto;
+}

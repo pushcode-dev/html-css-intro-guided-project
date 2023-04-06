@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  padding: 0 16px;
+}
+
+a {
+  color: #027b7e;
+  text-decoration: none;
+}
+
+aside {
+  background-color: #027b7e;
+  border-top: 1px solid;
+  float: right;
+  padding: 80px 32px 240px;
+  width: 400px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#main-title {
+  font-weight: normal;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.banner {
+  background-image: url("https://pushcodedev.s3.us-west-1.amazonaws.com/public_assets/costa-rican-traditional-meal-white-plate-wooden-table.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.cook-time-wrapper {
+  padding: 48px;
+}
+
+.cook-time-wrapper i {
+  color: #f0a433;
+  font-size: 24px;
+  width: 40px;
+}
+
+.cook-time-wrapper > .row {
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.cook-time-wrapper > .row > .value {
+  float: right;
+}
+
+.date {
+  font-size: 0.75rem;
+  text-decoration: underline;
+}
+
+.main-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid black;
+  height: 80px;
+  width: 100%;
+}
+
+.name {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.nutritional-info-wrapper > .row {
+  padding: 8px 16px;
+}
+
+.nutritional-info-wrapper > .row:nth-child(odd) {
+  background-color: #fafafa;
+}
+
+.nutritional-info-wrapper > .row > .value {
+  float: right;
+}
+
+.nutritional-info-wrapper {
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1), 2px 0px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.nutritional-info-wrapper > header {
+  background: #005b5d;
+  color: #ffffff;
+  padding: 16px;
+}
+
+.rating-wrapper {
+  text-align: center;
+}
+
+.reviews-button {
+  background-color: #f0a433;
+}
+
+.section-title {
+  color: #027b7e;
+}
+
+.sleeping-sloth {
+  height: 240px;
+}
+
+.stars {
+  color: #f0a433;
+  margin-bottom: 32px;
+}
+
+main {
+  background-color: #fafafa;
+  border-top: 1px solid black;
+  width: calc(100% - 400px);
+}
+
+section {
+  margin: 0 auto;
+  margin-bottom: 32px;
+  max-width: 800px;
+}
