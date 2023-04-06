@@ -2,7 +2,7 @@
 
 When going through this project, I noticed some issues with the `prettier` code formatter in VSCode when formatting html. Especially with formatting `<cite>`, `<a>`, and `<blockquote>` elements. In fact, the `<blockquote>` element completely prevented the formatter from formatting. Because of this, I switched over to using VSCode's html formatter. To do this, I opened the `command palette` (CMD + Shift + P on mac), and searched for `Open Settings (JSON)` and clicked on the option.
 
-This is what my my settings.json file contains:
+This is what my my settings.json file contains now:
 
 ```json
 {
@@ -196,22 +196,22 @@ Now we will add the un-ordered list of ingredients under the `Ingredients` headi
 
 Here is the list of ingredients:
 
-3 cups cooked white rice
-2 cups cooked black beans
-1/4 cup bean broth, chicken broth, or water
-1/4 cup salsa lizano
-1 small yellow onion, diced
-1 red bell pepper, diced
-1/4 cup chopped cilantro
-1 tsp sea salt
-1 tbsp olive oil
+- 3 cups cooked white rice
+- 2 cups cooked black beans
+- 1/4 cup bean broth, chicken broth, or water
+- 1/4 cup salsa lizano
+- 1 small yellow onion, diced
+- 1 red bell pepper, diced
+- 1/4 cup chopped cilantro
+- 1 tsp sea salt
+- 1 tbsp olive oil
 
 and here is the list of instructions:
 
-Heat oil in a large skillet over medium heat. Saute the onion and pepper until the onion becomes translucent.
-add the beans, broth, cilantro, and salt to the skillet and toss
-add the salsa lizano
-add the cooked rice and toss until well combined and heated thoroughly
+1. Heat oil in a large skillet over medium heat. Saute the onion and pepper until the onion becomes translucent.
+2. add the beans, broth, cilantro, and salt to the skillet and toss
+3. add the salsa lizano
+4. add the cooked rice and toss until well combined and heated thoroughly
 
 <details>
 
@@ -454,7 +454,7 @@ In this step lets add some reviews under `Leave a review`. Each review will have
 ```
 
 </details>
-
+  
 ### Step 7.
 
 Let's add a couple of links to our documents. In the ingredients list where we have `1/4 cup salsa lizano`, let's link `salsa lizano` to a recipe for making salsa lizano. Here's a recipe you can use: https://www.fusioncraftiness.com/lizano-sauce-from-costa-rica/. If that link no longer works, just search for a recipe for salsa lizano and copy the url. Use the `<a>` tag to create a hyperlink for `salsa lizano` to link to that website. We want the link to open in a new tab.
@@ -631,6 +631,8 @@ Now, let's create a rule for the class `date` and set the font size to `0.75rem`
 
 <details>
 
+## HTML file
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -707,6 +709,39 @@ Now, let's create a rule for the class `date` and set the font size to `0.75rem`
 </html>
 ```
 
+## CSS file
+
+```css
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#main-title {
+  font-weight: normal;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.date {
+  font-size: 0.75rem;
+  text-decoration: underline;
+}
+
+.name {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.section-title {
+  color: #027b7e;
+}
+```
+
 </details>
 
 <details>
@@ -770,7 +805,7 @@ Go to `fonts.google.com` and look for `Montserrat` and click on it. Click on the
 After you have selected all of the styles, copy the `<link>` code and paste it in the `<head>` of your html document.
 Then, copy the css rule, and use the `universal selector` to set the `font-family` for all elements in our document.
 
-<details>
+HTML
 
 ```html
 <!DOCTYPE html>
@@ -801,7 +836,7 @@ Then, copy the css rule, and use the `universal selector` to set the `font-famil
 
 </details>
 
-<details>
+CSS
 
 ```css
 * {
@@ -809,8 +844,6 @@ Then, copy the css rule, and use the `universal selector` to set the `font-famil
 }
 ...
 ```
-
-</details>
 
 ## Solution
 
@@ -998,3 +1031,14 @@ h2 {
 
 <p align="center"><?xml version="1.0" encoding="UTF-8" standalone="no"?>
 </p>
+
+## Summary
+
+Every web developer needs a good code editor where they can write their code! There are a lot of options to choose from, however, my personal favorite is VSCode. I highly suggest you also use VSCode during this course for consistency with the videos.
+
+In this project, I will guide you through installing and setting up VSCode so you can start coding!
+
+- Learn how to create an html file in VSCode
+- Learn how to use the `html:5` VSCode snippet to create boilerplate html code
+- Learn how to open an html file in your web browser
+- Display text in the web browser
