@@ -1,3 +1,23 @@
+### Important note
+
+When going through this project, I noticed some issues with the `prettier` code formatter in VSCode when formatting html. Especially with formatting `<cite>`, `<a>`, and `<blockquote>` elements. In fact, the `<blockquote>` element completely prevented the formatter from formatting. Because of this, I switched over to using VSCode's html formatter. To do this, I opened the `command palette` (CMD + Shift + P on mac), and searched for `Open Settings (JSON)` and clicked on the option.
+
+This is what my my settings.json file contains now:
+
+```json
+{
+  "window.zoomLevel": 1,
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.wordWrap": "on",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
+}
+```
+
 ## Project Summary
 
 In this project, we will add to the `Gallo Pinto Recipe` website we started in the last unit. We will group elements together and add pictures, backgrounds, form elements and use the box-model to make the website more interesting and fun.
@@ -65,7 +85,7 @@ In this step we will create an image banner to show what Gallo Pinto looks like.
 
 Below the `<header>`, add a `<div>` and give it a class `banner`. Then, create a CSS style rule for the `.banner` class that will set the `background-image` to `https://pushcodedev.s3.us-west-1.amazonaws.com/public_assets/costa-rican-traditional-meal-white-plate-wooden-table.jpg`, the `height` to `500px`, the `background-position` to `center`, and the `background-size` to `cover`. We want the background image position to be in the center and we want the background image to cover the entire space. This will make it so that even if the dimensions of the image aren't perfect for the size we need, it will resize the image to cover all the space and make sure that the image is centered in case edges get cut off.
 
-<details>
+Next, we will add the `favicon` for our website. Under the `<title>` element, use the `<link>` element to add our favicon. The image file for our favicon is located at https://icons.pushcode.dev/turtle.svg.
 
 ```html
 <!DOCTYPE html>
@@ -250,7 +270,9 @@ Now, in the CSS file, add a rule for the class `.stars` and set the `color` to `
 
 </details>
 
-### Step 5.
+### Step 2.
+
+In this Step, we will create the different `headings` we need on the site. For the main title we will use an `<h1>` element, and within the opening and closing tags type `costa rican gallo pinto` in all lowercase (this is so we can format it later using CSS, just to get some practice). Let's add an `id` attribute on the opening `<h1>` tag with the value `main-title`. We will use this `id` later on the style our title.
 
 <!-- TODO: add instructions -->
 
@@ -755,6 +777,8 @@ As a stretch goal...try and add the font-awesome icons you see in the webiste fo
 ```
 
 </details>
+  
+### Step 7.
 
 <details>
 
@@ -843,7 +867,15 @@ li {
 
 </details>
 
-### Step 11.
+### Step 8.
+
+In this step, we will link our CSS file to our HTML file. In the `<head>` of our html document, use the `<link>` element, to link our `style.css` file. Once you have done that, let's add some style rules in our `style.css` file for our `#main-title` id, `.section-title` class and `h1` and `h2` elements.
+
+For the `#main-title`, we want the font weight to be `normal` (instead of the bold that h1 elements get by default). We want the text to be aligned in the center, and we want the first letter of each word to be capitalized.
+
+For the `.section-title` elements, we want the color of the text to be `#027b7e`.
+
+For `h1` elements, we want the font size to be `2.5rem`.
 
 In this step we will work on the `More recipes section`. This section doesn't have any content in it yet (except the heading), so go take a look at the example website for this step to see what this sections should look like and what the content should be. You can see that the section has a white background, similar to the "Ingredients" section. But this section has a shadow around it to make it look like it is raised up a bit. You can also see that there are 6 images of recipes (okay, it's the same image for the current recipe, but this is just for practice, and I didn't want to have to deal with multiple image files) and when you hover over each recipe, it darkens a litte. lets take this one step at a time and build out this section.
 
@@ -963,7 +995,126 @@ Well, that's it for the `More recipes` section! You are doing GREAT!!!
 
 </details>
 
-### Step 12.
+### Step 9.
+
+In this step we will style the `name` and `date` portion of a review.
+Since we want the name and date on the same line, but we want the date styled differently than the name, let's wrap the name portion in a `<span>` and give it a `class` of `name`, and wrap the date portion in a `<span>` and give it a `class` of `date`.
+
+Then, in our CSS file, let's create a rule for the class `name` and set the font size to `1.1rem` and the font weight to `600`.
+Now, let's create a rule for the class `date` and set the font size to `0.75rem` and make it so the text is underlined (think about which css property controls this?)
+
+<details>
+
+## HTML file
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  ...
+  <body>
+    ...
+    <h2 id="reviews" class="section-title">Reviews</h2>
+    <h3>Leave a review</h3>
+    <p>
+      <span class="name">John Doe</span>
+      <span class="date">October 28, 2022</span>
+    </p>
+    <p>
+      This is my families favorite new recipe. I made this last night and
+      everyone loved it! Even my pickiest kid devoured it!
+    </p>
+    <p>
+      <span class="name">John Doe</span>
+      <span class="date">October 28, 2022</span>
+    </p>
+    <p>
+      This is my families favorite new recipe. I made this last night and
+      everyone loved it! Even my pickiest kid devoured it!
+    </p>
+    <p>
+      <span class="name">John Doe</span>
+      <span class="date">October 28, 2022</span>
+    </p>
+    <p>
+      This is my families favorite new recipe. I made this last night and
+      everyone loved it! Even my pickiest kid devoured it!
+    </p>
+    <p>
+      <span class="name">John Doe</span>
+      <span class="date">October 28, 2022</span>
+    </p>
+    <p>
+      This is my families favorite new recipe. I made this last night and
+      everyone loved it! Even my pickiest kid devoured it!
+    </p>
+    <p>
+      <span class="name">John Doe</span>
+      <span class="date">October 28, 2022</span>
+    </p>
+    <p>
+      This is my families favorite new recipe. I made this last night and
+      everyone loved it! Even my pickiest kid devoured it!
+    </p>
+    <p>
+      <span class="name">John Doe</span>
+      <span class="date">October 28, 2022</span>
+    </p>
+    <p>
+      This is my families favorite new recipe. I made this last night and
+      everyone loved it! Even my pickiest kid devoured it!
+    </p>
+    <p>
+      <span class="name">John Doe</span>
+      <span class="date">October 28, 2022</span>
+    </p>
+    <p>
+      This is my families favorite new recipe. I made this last night and
+      everyone loved it! Even my pickiest kid devoured it!
+    </p>
+    <p>
+      <span class="name">John Doe</span>
+      <span class="date">October 28, 2022</span>
+    </p>
+    <p>
+      This is my families favorite new recipe. I made this last night and
+      everyone loved it! Even my pickiest kid devoured it!
+    </p>
+  </body>
+</html>
+```
+
+## CSS file
+
+```css
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#main-title {
+  font-weight: normal;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.date {
+  font-size: 0.75rem;
+  text-decoration: underline;
+}
+
+.name {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.section-title {
+  color: #027b7e;
+}
+```
 
 2 more steps to go! We are almost finished with this project!
 
@@ -1022,7 +1173,7 @@ textarea {
 
 </details>
 
-### Step 13.
+### Step 10.
 
 Look at the progress you have made on this website! Amazing work!! I know this is a big project, and is a lot of work. It will be good to have this project to look back to when you need to do similar things. It also touched on all (or almost all) of the concepts taught in this unit!
 
@@ -1434,6 +1585,7 @@ YOU DID IT!!!!!! I hope that this project was a lot of fun for you. I KNOW it wa
 </body>
 
 </html>
+
 ```
 
 </details>
@@ -1674,3 +1826,14 @@ section {
 
 <p align="center"><?xml version="1.0" encoding="UTF-8" standalone="no"?>
 </p>
+
+## Summary
+
+Every web developer needs a good code editor where they can write their code! There are a lot of options to choose from, however, my personal favorite is VSCode. I highly suggest you also use VSCode during this course for consistency with the videos.
+
+In this project, I will guide you through installing and setting up VSCode so you can start coding!
+
+- Learn how to create an html file in VSCode
+- Learn how to use the `html:5` VSCode snippet to create boilerplate html code
+- Learn how to open an html file in your web browser
+- Display text in the web browser
